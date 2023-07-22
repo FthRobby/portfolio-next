@@ -9,7 +9,7 @@ export default function Work() {
 
       <MotionOpacityDiv>
         <h2 className={mont.className}>
-          <span className={`${mono.className} text-lg md:text-2xl text-cyan`}>
+          <span className={`${mono.className} text-lg md:text-2xl text-purple`}>
             03.{" "}
           </span>
           Some Things I've Built

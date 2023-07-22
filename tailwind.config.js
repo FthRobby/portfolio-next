@@ -16,6 +16,7 @@ module.exports = {
         mainBg: "#0a192f",
         mainBg2: "#112240",
         mainBg3: "#233554",
+        purple: "#a06eeb",
       },
     },
   },

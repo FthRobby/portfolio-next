@@ -21,7 +21,7 @@ export default function Experience() {
     <MotionOpacity>
       <div className="sm:mx-10 py-40 lg:mx-10 xl:mx-40 mt-40" id="experience">
         <h2 className={mont.className}>
-          <span className={`${mono.className} text-lg md:text-2xl text-cyan`}>
+          <span className={`${mono.className} text-lg md:text-2xl text-purple`}>
             03.{" "}
           </span>
           Where I've Worked
@@ -48,9 +48,8 @@ const Title = ({ exp, setCurrent, current = 0 }: IExperience) => {
         return (
           <button
             onClick={() => setCurrent?.(item.id)}
-            className={`experience-title ${
-              current === item.id ? "experience-title-active" : ""
-            }`}
+            className={`experience-title ${current === item.id ? "experience-title-active" : ""
+              }`}
             key={item.id}
           >
             <p>{item.title}</p>

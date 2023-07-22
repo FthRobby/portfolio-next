@@ -35,10 +35,10 @@ export default function Navbar() {
           <li
             onClick={() => setCurrent(id)}
             key={item.link}
-            className={`li-nav ${current === id ? "text-cyan" : ""}`}
+            className={`li-nav ${current === id ? "text-purple" : ""}`}
           >
             <a href={`#${item.link}`}>
-              <span className="text-cyan text-xs">0{id + 1}. </span>
+              <span className="text-purple text-xs">0{id + 1}. </span>
               {item.link}
             </a>
           </li>
@@ -71,7 +71,7 @@ export default function Navbar() {
       >
         {list.map((item, id) => (
           <li key={item.link} className="li-nav text-lg ">
-            <span className="text-cyan text-xs">0{id + 1}. </span>
+            <span className="text-purple text-xs">0{id + 1}. </span>
             <a href={`#${item.link}`}>{item.link}</a>
           </li>
         ))}

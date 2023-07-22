@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <MotionUpOpacity className="contact" id="contact">
       <div>
-        <span className={`${mono.className} text-xs md:text-lg text-cyan`}>
+        <span className={`${mono.className} text-xs md:text-lg text-purple`}>
           04. What's Next?
         </span>
         <h2 className={mont.className}>Get In Touch</h2>

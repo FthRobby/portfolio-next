@@ -39,11 +39,11 @@ export default function Project({ project }: ProjectProps) {
               </ul>
 
               <div className="flex gap-4 items-center">
-                <a className="hover:text-cyan" href={item.link}>
+                <a className="hover:text-purple" href={item.link}>
                   <FiGithub size="20" />
                 </a>
                 {/* !! = item.lenght != 0 */}
-                <span className="hover:text-cyan">
+                <span className="hover:text-purple">
                   {!!item.live ? (
                     <a target="_blank" href={item.live}>
                       <BiLinkExternal size="20" />

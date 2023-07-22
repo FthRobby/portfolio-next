@@ -15,7 +15,7 @@ export default function About() {
   return (
     <MotionOpacity className="mb-20 py-36 xl3:mx-40" id="about">
       <h2 className={mont.className}>
-        <span className={`${mono.className} text-lg md:text-2xl text-cyan`}>
+        <span className={`${mono.className} text-lg md:text-2xl text-purple`}>
           01.{" "}
         </span>
         About Me
@@ -23,8 +23,8 @@ export default function About() {
       <div className="parent-about">
         <div className={`${mont.className} about-desc-parent`}>
           <p className="break-normal">
-            Hi, My name is <span className="text-cyan">Fatah RobbySalam</span> but i
-            would like if you call me <span className="text-cyan">Robb</span>, i'm a self-tough frontend
+            Hi, My name is <span className="text-purple">Fatah RobbySalam</span> but i
+            would like if you call me <span className="text-purple">Robb</span>, i'm a self-tough frontend
             developer who loves to create beautiful and functional websites. I am
             passionate about learning new technologies and staying up-to-date
             with the latest trends in web development.
@@ -43,7 +43,7 @@ export default function About() {
           <Image
             priority
             className="about-img-img"
-            src="/me.jpeg"
+            src="/saya.png"
             width={800}
             height={800}
             alt="Robby"

@@ -46,7 +46,7 @@ export default function Footer() {
         style={{ writingMode: "vertical-lr" }}
       >
         <a
-          className={`${mono.className} text-gray1 hover:text-cyan`}
+          className={`${mono.className} text-gray1 hover:text-purple`}
           href={social[2].link}
         >
           {social[2].email}

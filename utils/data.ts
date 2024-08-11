@@ -3,10 +3,10 @@ import { TbBrandTelegram } from "react-icons/tb";
 import { FiLinkedin } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import Quran from "../public/quran.png";
-import Smartfarm from '../public/smartfarm.png'
-import SmartPoS from '../public/smartpos.png'
-import GB from '../public/genius_business.png'
-import { Experience, List,  Social } from "./model";
+import Smartfarm from "../public/smartfarm.png";
+import SmartPoS from "../public/smartpos.png";
+import GB from "../public/genius_business.png";
+import { Experience, List, Social } from "./model";
 
 export const list: List[] = [
   {
@@ -42,7 +42,7 @@ export const experience: Experience[] = [
     title: "Freelance",
     date: "December 2021",
     story:
-    "I have experience working as a freelance web developer, where I helped clients create websites to display online food menus. This experience has taught me the importance of attention to detail and the ability to work closely with clients to ensure their vision is realized.",
+      "I have experience working as a freelance web developer, where I helped clients create websites to display online food menus. This experience has taught me the importance of attention to detail and the ability to work closely with clients to ensure their vision is realized.",
   },
 ];
 export const social: Social[] = [
@@ -53,7 +53,7 @@ export const social: Social[] = [
   },
   {
     icon: FiLinkedin,
-    link: "https://www.linkedin.com/in/fatah-robbysalam/",
+    link: "https://www.linkedin.com/",
     title: "Linkedin",
   },
   {
@@ -83,7 +83,7 @@ export const project = [
   },
   {
     title: "Genius Business",
-    desc: 'Genius Business is a PoS application that is used to manage sales, manage products, manage employees, manage customers, manage suppliers, manage warehouses, manage reports, manage users, and manage settings. This application is built using Vue JS, and Tailwind CSS.',
+    desc: "Genius Business is a PoS application that is used to manage sales, manage products, manage employees, manage customers, manage suppliers, manage warehouses, manage reports, manage users, and manage settings. This application is built using Vue JS, and Tailwind CSS.",
     tech: ["Vue", "Vuex", "Tailwind"],
     link: "",
     image: GB,

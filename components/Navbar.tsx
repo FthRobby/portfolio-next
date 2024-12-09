@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { list } from "@/utils/data";
+// import { list } from "@/utils/data";
 import { mono, mont } from "@/utils/fonts";
 import { motion as m } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -15,17 +15,17 @@ export default function Navbar() {
   return (
     <nav>
       {/*Logo*/}
-      <m.h3
+      {/* <m.h3
         initial={{ x: -200 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
         className={`${mont.className} text-xl md:text-2xl cursor-pointer`}
       >
         <a href="#home">FRobby.</a>
-      </m.h3>
+      </m.h3> */}
 
       {/*Desktop Navigation*/}
-      <m.ul
+      {/* <m.ul
         initial={{ x: 800 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
@@ -50,10 +50,10 @@ export default function Navbar() {
             </a>
           </button>
         </li>
-      </m.ul>
+      </m.ul> */}
 
       {/*Menu Navigation*/}
-      <m.button
+      {/* <m.button
         initial={{ x: 100 }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
@@ -61,10 +61,10 @@ export default function Navbar() {
         onClick={handleMenu}
       >
         {!menu ? <FaBars size="25" /> : <FaTimes size="25" />}
-      </m.button>
+      </m.button> */}
 
       {/*Mobile Navigation*/}
-      <ul
+      {/* <ul
         onClick={handleMenu}
         className={`${mono.className} ${!menu ? "navMobileOff" : `left-0`
           } navMobile`}
@@ -82,7 +82,7 @@ export default function Navbar() {
             </a>
           </button>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }

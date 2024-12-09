@@ -11,7 +11,7 @@ export default function page() {
       <HomePage />
       <About />
       <Experience />
-      <Work />
+      {/* <Work /> */}
       <Contact />
     </main>
   );

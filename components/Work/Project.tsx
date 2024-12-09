@@ -18,7 +18,7 @@ interface ProjectProps {
 export default function Project({ project }: ProjectProps) {
   return (
     <>
-      {project.map((item, id) => {
+      {/* {project.map((item, id) => {
         return (
           <div key={id} className="parent-project-card">
             <div className="parent-project">
@@ -42,7 +42,6 @@ export default function Project({ project }: ProjectProps) {
                 <a className="hover:text-purple" href={item.link}>
                   <FiGithub size="20" />
                 </a>
-                {/* !! = item.lenght != 0 */}
                 <span className="hover:text-purple">
                   {!!item.live ? (
                     <a target="_blank" href={item.live}>
@@ -68,7 +67,7 @@ export default function Project({ project }: ProjectProps) {
             </div>
           </div>
         );
-      })}
+      })} */}
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function Work() {
           Some Things I've Built
         </h2>
         <div className="parent-work">
-          <Project project={project} />
+          {/* <Project project={project} /> */}
         </div>
       </MotionOpacityDiv>
     </section>

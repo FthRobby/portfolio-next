@@ -1,5 +1,5 @@
 import { mono, mont } from "@/utils/fonts";
-import { project } from "@/utils/data";
+// import { project } from "@/utils/data";
 import { MotionOpacityDiv } from "@/components/Motion";
 import Project from "@/components/Work/Project";
 

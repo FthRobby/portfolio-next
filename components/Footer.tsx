@@ -1,12 +1,12 @@
 "use client";
 import { mono } from "@/utils/fonts";
-import { social } from "@/utils/data";
+// import { social } from "@/utils/data";
 import { motion as m } from "framer-motion";
 
 export default function Footer() {
   return (
     <footer className={mono.className}>
-      <div className="social-mobile">
+      {/* <div className="social-mobile">
         {social.slice(0, 3).map((item, id) => (
           <a key={id} href={item.link} className={`${mono.className} `}>
             <item.icon size="25" />
@@ -50,7 +50,7 @@ export default function Footer() {
           {social[2].email}
         </a>
         <div className="h-16 w-px bg-gray1"></div>
-      </m.div>
+      </m.div> */}
     </footer>
   );
 }

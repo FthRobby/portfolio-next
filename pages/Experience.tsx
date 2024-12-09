@@ -1,5 +1,5 @@
 import { MotionOpacity } from "@/components/Motion";
-import { experience as exp } from "@/utils/data";
+// import { experience as exp } from "@/utils/data";
 import { mono, mont } from "@/utils/fonts";
 import { useState } from "react";
 
@@ -27,7 +27,7 @@ export default function Experience() {
           Where I've Worked
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-3">
+        {/* <div className="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-3">
           <div>
             <Title exp={exp} current={current} setCurrent={setCurrent} />
           </div>
@@ -35,7 +35,7 @@ export default function Experience() {
           <div className="col-span-4">
             <Item exp={exp} current={current} />
           </div>
-        </div>
+        </div> */}
       </div>
     </MotionOpacity>
   );
